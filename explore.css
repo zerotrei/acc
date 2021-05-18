@@ -1,0 +1,122 @@
+
+@font-face 
+{
+  font-family: LIQUIDO;
+  src: url(/fonts/LIQUIDO-Fluid.otf);
+}
+@font-face 
+{
+  font-family: liquido2;
+  src: url(/fonts/LIQUIDO-Reguar.otf);
+}
+
+*
+{
+ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:url(/IMAGES/ALB.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  
+}
+
+.header
+{ 
+  font-family: liquido2;
+  font-size: 32px;
+  letter-spacing: 1mm;
+  position: fixed;
+  top: 40px;
+  left: 100px;
+  width: 100%;
+}
+
+.return{
+  position: relative;
+  top: 45px;
+  left: 35px;
+
+}
+
+
+.gallery
+{
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  height: auto;
+  display:  block;
+  align-content: center; 
+  justify-content: center;
+}
+
+
+.gallery img
+{
+  max-width: 100%;
+  filter: grayscale(100%);
+  filter:blur(100%);
+  cursor:crosshair;
+  
+}
+.gallery img:hover
+{
+  filter: grayscale(0);
+  filter:blur(0);
+  transition:5s;  
+}
+
+.a4
+{
+  
+  position: absolute;
+  left: 95px;;
+  top: 100px;
+}
+
+.a1
+{
+  
+  position: absolute;
+  left: 380px;
+  top: 100px;
+}
+
+
+
+.a2
+{
+  
+  position:absolute;
+  left: 675px;
+  top: 100px;
+
+}
+
+
+.a6
+{
+ 
+  position: absolute;
+  left: 380px;
+  top: 380px;
+}
+.a5
+{
+ 
+  position: absolute;
+  left: 675px;
+  top: 380px; 
+}
+.a3
+{
+  position: absolute;
+  left: 970px;
+  top: 380px;
+}
+
+
+

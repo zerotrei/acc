@@ -1,0 +1,104 @@
+@font-face 
+{
+  font-family: LIQUIDO;
+  src: url(/fonts/LIQUIDO-Fluid.otf);
+}
+@font-face 
+{
+  font-family: liquido2;
+  src: url(/fonts/LIQUIDO-Reguar.otf);
+}
+*
+{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background:url(../images/alb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  position: absolute ;
+  font-family: liquido2;
+  letter-spacing: 2mm;
+  top: 40px;
+  left: 80px;
+}
+.back
+{
+  position:fixed;
+  top: 45px;
+  Left: 35px;
+}
+.menu
+ {
+  position: fixed;
+  top: 43px;
+  right: 50px;
+  }
+.container{
+  
+  width: 540px;
+  margin: 40px auto;
+  overflow: auto;
+}
+
+.slider-inner{
+  margin-top: 60px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+  border:#666 solix 1px;
+  }
+
+.slider-inner img{
+  display: none;
+  width: 500px;
+  height: 500px;
+}
+
+.slider-inner img.active{
+  display: inline-block;
+}
+
+.prev,.next{
+  float: left;
+  margin-top:130px;
+  cursor: pointer;
+}
+
+.prev{
+  position: fixed;
+  top: 200px;
+  left: 350px;
+  z-index: 100;
+  
+}
+.next{
+  position: fixed;
+  top: 200px;
+  right: 395px;
+  z-index: 100;
+}
+
+.info{
+  font-family: liquido2;
+  font-size: 21px;
+  letter-spacing: 2px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 610px;
+  left: 525px;
+  z-index: 100;
+}

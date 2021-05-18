@@ -1,0 +1,46 @@
+@font-face 
+{
+  font-family: LIQUIDO;
+  src: url(/fonts/LIQUIDO-Fluid.otf);
+}
+@font-face 
+{
+  font-family: liquido2;
+  src: url(/fonts/LIQUIDO-Reguar.otf);
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'liquido2';
+  background:url(../images/alb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+h1{
+  position: absolute ;
+  font-family: liquido2;
+  letter-spacing: 2mm;
+  top: 40px;
+  left: 80px;
+}
+.back
+{
+  position:fixed;
+  top: 45px;
+  Left: 35px;
+}
+
+
+.text 
+{
+position:relative;
+font-size: 35px;
+top: 300px;
+left: 600px;
+letter-spacing: 1mm;
+}
+
